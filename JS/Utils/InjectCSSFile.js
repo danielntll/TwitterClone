@@ -1,6 +1,6 @@
 export const injectCss = (filePath) => {
   let link = document.createElement("link");
-  link.href = "TwitterClone" + filePath;
+  link.href = filePath;
   link.type = "text/css";
   link.rel = "stylesheet";
   link.media = "screen,print";
